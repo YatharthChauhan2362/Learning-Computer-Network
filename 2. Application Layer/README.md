@@ -4,9 +4,9 @@
     SUBJECT:        Computer Network
     REPOSITORY:     Learning-Computer-Network
 
-# CHAPTER-2: Application Layer
+# CHAPTER-2: APPLICATION LAYER
 
-## Application Layer
+## Introduction
 
 The application layer is the topmost layer of the OSI and TCP/IP network models, responsible for providing services and applications that enable users to access and use network resources. It is where the actual user interacts with the network and where applications are executed. Some examples of protocols that operate at the application layer include HTTP, FTP, SMTP, and Telnet.
 
@@ -40,7 +40,9 @@ The application layer is essential in ensuring that applications and services ar
 
 The principles of network applications are the guidelines and best practices that developers should follow when designing and developing applications that run over a network. These principles are crucial for ensuring that network applications are reliable, efficient, and secure. Here are some of the key principles of network applications:
 
-1. Application Layer Protocols: Network applications should use standardized protocols at the application layer, such as HTTP, FTP, and SMTP, to ensure compatibility and interoperability with other applications and devices.
+1. Application Layer Protocols:
+
+- Network applications should use standardized protocols at the application layer, such as HTTP, FTP, and SMTP, to ensure compatibility and interoperability with other applications and devices.
 
 2. Network Security:
 
