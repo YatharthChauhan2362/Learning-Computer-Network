@@ -72,4 +72,53 @@ Packet switching
 In summary, circuit switching creates a dedicated physical connection between two devices for the duration of the communication, while packet switching breaks data down into small packets and sends them individually over the network, allowing multiple devices to share the same network resources. Packet switching is the method used in modern computer networks, while circuit switching is an older technology used in traditional telephone networks.
 
 
+# Delay and Loss
+
+Delay refers to the time it takes for data to travel from one point to another in a network. There are several types of delay that can occur in a network:
+
+1. Transmission delay: The time it takes for a node to transmit data onto the network.
+
+2. Propagation delay: The time it takes for data to travel from one end of a network to the other.
+
+3. Processing delay: The time it takes for a node to process data before transmitting it onto the network.
+
+4. Queuing delay: The time it takes for data to wait in a queue before it can be transmitted.
+
+5. Network congestion delay: The time it takes for data to be delayed due to congestion in the network.
+
+On the other hand, loss in networking refers to the situation where some of the transmitted data is not received at the destination. There are several reasons why data loss can occur in a network, including:
+
+1. Network congestion: When the network is congested, packets may be dropped to alleviate the congestion.
+
+2. Interference: Physical interference in the network can cause data loss.
+
+3. Faulty equipment: Malfunctioning hardware can cause packets to be lost.
+
+4. Errors in data transmission: Transmission errors can cause packets to be lost or corrupted.
+
+Both delay and loss can impact the performance and reliability of a network, and therefore it is important to monitor and manage these issues in order to maintain a high-quality network.
+
+# Throughput
+
+Throughput is the amount of data that can be transmitted over a network in a given amount of time. In packet-switched networks, throughput is affected by several factors, including the size of the packets, the available bandwidth, and the number of packets being transmitted.
+
+Packet-switched networks divide data into packets, which are sent individually across the network and reassembled at the destination. The size of the packets can affect the throughput of the network, as larger packets take longer to transmit than smaller packets. However, larger packets can be more efficient, as there is less overhead associated with transmitting a larger number of smaller packets.
+
+Bandwidth is another factor that affects the throughput of packet-switched networks. Bandwidth refers to the amount of data that can be transmitted over the network in a given amount of time. A network with a high bandwidth can transmit more data in a given amount of time than a network with a lower bandwidth.
+
+Finally, the number of packets being transmitted can also affect the throughput of a packet-switched network. As more packets are transmitted, the network may become congested, which can result in delays and packet loss. This can reduce the overall throughput of the network.
+
+To optimize throughput in packet-switched networks, it is important to balance the size of the packets with the available bandwidth and to manage congestion to minimize delays and packet loss. Network administrators may use tools such as Quality of Service (QoS) to prioritize traffic and manage congestion in order to maximize network throughput.
+
+# Queuing Delay
+
+Queuing delay is a type of delay that can occur in packet-switched networks when packets are queued up in a buffer.
+
+In packet-switched networks, packets are transmitted in small units and are routed through the network from source to destination. As these packets arrive at intermediate network devices such as routers, they are stored temporarily in a buffer before being forwarded to the next device.
+
+If the buffer is full, incoming packets will have to wait in a queue until space becomes available. The time that a packet spends waiting in this queue is known as queuing delay.
+
+Queuing delay can vary depending on the length of the queue, the number of packets in the queue, and the rate at which packets are arriving. When the queue is empty, the queuing delay is zero. However, as the number of packets in the queue increases, so does the queuing delay.
+
+Queuing delay can have a significant impact on network performance, especially in networks that experience high traffic or congestion. To minimize queuing delay, network administrators can implement techniques such as traffic shaping, prioritization, and packet dropping policies.
 
